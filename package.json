@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-socket",
+  "version": "1.0.0",
+  "description": "my socket.io app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namvietanh1902/socket-io-test.git"
+  },
+  "author": "Amberino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/namvietanh1902/socket-io-test/issues"
+  },
+  "homepage": "https://github.com/namvietanh1902/socket-io-test#readme",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "socket.io": "^4.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
